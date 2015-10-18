@@ -1,5 +1,5 @@
 install:
-  - pip install pbs
+  - pip install sh
   - python provision.py --travis
 cache:
   - apt: false
